@@ -46,6 +46,12 @@ export const metadata: Metadata = {
 
   metadataBase: new URL("https://YOUR-DOMAIN.vercel.app"),
 
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
+
   openGraph: {
     title: "Abhinay Meshram | Machine Learning Engineer",
 
@@ -55,6 +61,15 @@ export const metadata: Metadata = {
     url: "https://YOUR-DOMAIN.vercel.app",
 
     siteName: "Abhinay Portfolio",
+
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Abhinay Meshram Portfolio",
+      },
+    ],
 
     locale: "en_US",
 
@@ -69,6 +84,8 @@ export const metadata: Metadata = {
     description:
       "Portfolio showcasing Machine Learning, AI, NLP, Data Analytics and Full Stack ML Projects.",
 
+    images: ["/og-image.png"],
+
     creator: "@YOUR_TWITTER_USERNAME",
   },
 
@@ -76,6 +93,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+
+  themeColor: "#020817",
+
+  category: "technology",
 };
 
 export default function RootLayout({

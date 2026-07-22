@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 
   creator: "Abhinay Meshram",
 
-  metadataBase: new URL("https://YOUR-DOMAIN.vercel.app"),
+  metadataBase: new URL("https://abhinaymeshram.vercel.app"),
 
   icons: {
     icon: "/icon.png",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     description:
       "Portfolio showcasing Machine Learning, AI, NLP, Data Analytics and Full Stack ML Projects.",
 
-    url: "https://YOUR-DOMAIN.vercel.app",
+    url: "https://abhinaymeshram.vercel.app",
 
     siteName: "Abhinay Portfolio",
 
@@ -85,8 +85,6 @@ export const metadata: Metadata = {
       "Portfolio showcasing Machine Learning, AI, NLP, Data Analytics and Full Stack ML Projects.",
 
     images: ["/og-image.png"],
-
-    creator: "@YOUR_TWITTER_USERNAME",
   },
 
   robots: {

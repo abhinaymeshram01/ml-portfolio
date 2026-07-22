@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
     },
 
     sitemap:
-      "https://your-domain.com/sitemap.xml",
+      "https://abhinaymeshram.vercel.app/sitemap.xml",
   };
 }

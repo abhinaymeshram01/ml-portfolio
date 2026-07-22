@@ -7,7 +7,7 @@ export const projects = [
     description:
       "Developed an end-to-end Machine Learning pipeline to predict customer churn using feature engineering, model optimization, and deployment with FastAPI. The application supports real-time predictions and production-ready inference.",
 
-    image: "/projects/customer-churn.png",
+    image: "/Projects/customer-churn.png",
 
     tech: [
       "Python",
@@ -37,7 +37,7 @@ export const projects = [
     description:
       "Built an imbalanced classification system capable of detecting fraudulent transactions using SMOTE, XGBoost, and advanced evaluation metrics. Deployed with an interactive dashboard for real-time predictions.",
 
-    image: "/projects/credit-card-fraud.png",
+    image: "/Projects/credit-card-fraud.png",
 
     tech: [
       "Python",
@@ -67,7 +67,7 @@ export const projects = [
     description:
       "Designed a regression model to estimate laptop prices using feature engineering, preprocessing pipelines, and ensemble learning. Built an interactive Streamlit application for user predictions.",
 
-    image: "/projects/laptop-price.png",
+    image: "/Projects/laptop-price.png",
 
     tech: [
       "Python",

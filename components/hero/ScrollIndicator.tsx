@@ -16,14 +16,14 @@ export default function ScrollIndicator() {
         duration: 2,
         repeat: Infinity,
       }}
-      className="absolute bottom-8 left-1/2 -translate-x-1/2 text-slate-400"
+      className="absolute bottom-8 left-1/2 -translate-x-1/2 text-slate-200"
     >
       <div className="flex flex-col items-center gap-2">
-        <span className="text-sm tracking-widest uppercase">
+        <span className="text-sm font-medium tracking-widest uppercase text-slate-200">
           Scroll
         </span>
 
-        <ChevronDown className="h-6 w-6 text-blue-400" />
+        <ChevronDown className="h-6 w-6 text-cyan-300" />
       </div>
     </motion.div>
   );

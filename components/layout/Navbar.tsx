@@ -116,6 +116,9 @@ export default function Navbar() {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="text-white"
+              aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-menu"
             >
               {mobileOpen ? (
                 <X size={28} />
@@ -204,6 +207,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             <motion.div
+              id="mobile-menu"
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
@@ -223,6 +227,7 @@ export default function Navbar() {
                 <button
                   onClick={() => setMobileOpen(false)}
                   className="text-slate-300 hover:text-cyan-400"
+                  aria-label="Close navigation menu"
                 >
                   <X size={28} />
                 </button>

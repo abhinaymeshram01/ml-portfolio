@@ -28,7 +28,7 @@ const socialLinks = [
   },
   {
     icon: FaFileAlt,
-    href: "/Abhinay_MLresume.pdf",
+    href: "/Abhinay_ML_resume.pdf",
     label: "Resume",
   },
 ];
@@ -47,14 +47,12 @@ const navLinks = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-cyan-500/10 bg-[#020817]">
-
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-[140px]" />
       </div>
 
       <div className="mx-auto max-w-7xl px-6 py-20">
-
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -62,7 +60,6 @@ export default function Footer() {
           transition={{ duration: 0.7 }}
           className="text-center"
         >
-
           {/* Logo */}
           <motion.div
             whileHover={{ scale: 1.08, rotate: 5 }}
@@ -101,10 +98,14 @@ export default function Footer() {
                   <Link
                     href={item.href}
                     target="_blank"
+                    rel="noopener noreferrer"
+                    download={item.label === "Resume"}
+                    aria-label={`Visit ${item.label}`}
                     className="group flex h-16 w-16 items-center justify-center rounded-full border border-cyan-500/20 bg-slate-900/60 backdrop-blur-xl transition-all duration-300 hover:border-cyan-400 hover:bg-cyan-500/10 hover:shadow-[0_0_30px_rgba(34,211,238,0.35)]"
                   >
                     <Icon
                       size={26}
+                      aria-hidden="true"
                       className="text-slate-300 transition group-hover:text-cyan-300"
                     />
                   </Link>
@@ -146,10 +147,8 @@ export default function Footer() {
             transition={{ duration: 0.8 }}
             className="mt-10 flex flex-col items-center justify-between gap-6 lg:flex-row"
           >
-
             {/* Left */}
             <div className="text-center lg:text-left">
-
               <p className="text-slate-400">
                 © {new Date().getFullYear()}{" "}
                 <span className="font-semibold text-white">
@@ -161,7 +160,6 @@ export default function Footer() {
               <p className="mt-2 text-sm text-slate-500">
                 Built with ❤️ using Next.js, TypeScript & Tailwind CSS
               </p>
-
             </div>
 
             {/* Back To Top */}
@@ -181,17 +179,16 @@ export default function Footer() {
               }
               className="group flex items-center gap-2 rounded-full border border-cyan-500/20 bg-slate-900/60 px-6 py-3 text-slate-300 backdrop-blur-xl transition-all duration-300 hover:border-cyan-400 hover:bg-cyan-500/10 hover:text-cyan-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]"
             >
-              <FaArrowUp className="transition-transform duration-300 group-hover:-translate-y-1" />
+              <FaArrowUp
+                aria-hidden="true"
+                className="transition-transform duration-300 group-hover:-translate-y-1"
+              />
 
               Back to Top
             </motion.button>
-
           </motion.div>
-
         </motion.div>
-
       </div>
-
     </footer>
   );
 }

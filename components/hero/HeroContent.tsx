@@ -39,7 +39,22 @@ export default function HeroContent() {
 
       <div className="mt-10 flex flex-wrap gap-5">
         <Button
-          size="lg"
+        size="lg"
+        onClick={() => {
+          const section = document.querySelector("#projects");
+
+          if (section) {
+            const y =
+              section.getBoundingClientRect().top +
+              window.pageYOffset -
+              90;
+
+            window.scrollTo({
+              top: y,
+              behavior: "smooth",
+            });
+          }
+        }}
           className="rounded-xl bg-blue-600 px-8 py-6 text-base font-semibold shadow-lg shadow-blue-500/30 transition hover:bg-blue-500"
         >
           View Projects

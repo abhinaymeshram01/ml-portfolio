@@ -2,6 +2,36 @@ export const projects = [
   {
     id: 1,
 
+    title: "Intel Image Classification",
+
+    description:
+      "Built an end-to-end Deep Learning image classification system using a custom Convolutional Neural Network (CNN) to classify natural and urban scenes into six categories. Trained the model using TensorFlow and Keras and integrated it with a FastAPI REST API for image-based predictions.",
+
+    image: "/Projects/intel-image-classification.png",
+
+    tech: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "CNN",
+      "FastAPI",
+      "Pillow",
+    ],
+
+    github: "https://github.com/abhinaymeshram01/intel-image-classification",
+
+    highlights: [
+      "83.90% Test Accuracy",
+      "Custom CNN",
+      "6 Scene Classes",
+      "TensorFlow/Keras",
+      "FastAPI REST API",
+    ],
+  },
+
+  {
+    id: 2,
+
     title: "Customer Churn Prediction",
 
     description:
@@ -17,8 +47,8 @@ export const projects = [
       "AWS",
     ],
 
-    github: "https://github.com/abhinaymeshram01/customer-churn-prediction-api",
-
+    github:
+      "https://github.com/abhinaymeshram01/customer-churn-prediction-api",
 
     highlights: [
       "85% ROC-AUC Score",
@@ -30,7 +60,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
 
     title: "Credit Card Fraud Detection",
 
@@ -47,44 +77,14 @@ export const projects = [
       "Streamlit",
     ],
 
-    github: "https://github.com/abhinaymeshram01/credit-card-fraud-detection/tree/main",
-
+    github:
+      "https://github.com/abhinaymeshram01/credit-card-fraud-detection/tree/main",
 
     highlights: [
       "ROC-AUC 0.98",
       "SMOTE",
       "XGBoost",
       "FastAPI API",
-      "Interactive Dashboard",
-    ],
-  },
-
-  {
-    id: 3,
-
-    title: "Laptop Price Prediction",
-
-    description:
-      "Designed a regression model to estimate laptop prices using feature engineering, preprocessing pipelines, and ensemble learning. Built an interactive Streamlit application for user predictions.",
-
-    image: "/Projects/laptop-price.png",
-
-    tech: [
-      "Python",
-      "Scikit-learn",
-      "Streamlit",
-      "XGBoost",
-      "Random Forest",
-    ],
-
-    github: "https://github.com/abhinaymeshram01/laptop-price_predictor",
-
-
-    highlights: [
-      "R² Score 0.91",
-      "100K Dataset",
-      "Feature Engineering",
-      "Random Forest",
       "Interactive Dashboard",
     ],
   },

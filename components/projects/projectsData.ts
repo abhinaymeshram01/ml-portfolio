@@ -2,6 +2,36 @@ export const projects = [
   {
     id: 1,
 
+    title: "Sentiment Analysis",
+
+    description:
+      "An NLP-based Machine Learning application that analyzes textual data and classifies sentiment as Positive, Negative, or Neutral. The project demonstrates an end-to-end NLP workflow from text preprocessing and feature extraction to model training and evaluation.",
+
+    image: "/Projects/sentiment-analysis.png",
+
+    tech: [
+      "Python",
+      "NLP",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "TF-IDF",
+    ],
+
+    github: "https://github.com/abhinaymeshram01/sentiment-analysis",
+
+    highlights: [
+      "NLP Pipeline",
+      "Text Preprocessing",
+      "TF-IDF",
+      "Sentiment Classification",
+      "Model Evaluation",
+    ],
+  },
+
+  {
+    id: 2,
+
     title: "Intel Image Classification",
 
     description:
@@ -18,7 +48,7 @@ export const projects = [
       "Pillow",
     ],
 
-    github: "https://github.com/abhinaymeshram01/intel-image-classification",
+    github: "YOUR_INTEL_PROJECT_GITHUB_URL",
 
     highlights: [
       "83.90% Test Accuracy",
@@ -26,36 +56,6 @@ export const projects = [
       "6 Scene Classes",
       "TensorFlow/Keras",
       "FastAPI REST API",
-    ],
-  },
-
-  {
-    id: 2,
-
-    title: "Customer Churn Prediction",
-
-    description:
-      "Developed an end-to-end Machine Learning pipeline to predict customer churn using feature engineering, model optimization, and deployment with FastAPI. The application supports real-time predictions and production-ready inference.",
-
-    image: "/Projects/customer-churn.png",
-
-    tech: [
-      "Python",
-      "Scikit-learn",
-      "FastAPI",
-      "Docker",
-      "AWS",
-    ],
-
-    github:
-      "https://github.com/abhinaymeshram01/customer-churn-prediction-api",
-
-    highlights: [
-      "85% ROC-AUC Score",
-      "Feature Engineering",
-      "Random Forest",
-      "FastAPI Deployment",
-      "Production Pipeline",
     ],
   },
 

@@ -21,12 +21,11 @@ export const skills = [
       "Python",
       "SQL",
       "Git",
-      "OOP",
     ],
   },
 
   {
-    title: "Machine Learning",
+    title: "GenAI & LLM",
     icon: Brain,
     color: {
       text: "text-blue-400",
@@ -35,16 +34,19 @@ export const skills = [
       glow: "hover:shadow-blue-500/20",
     },
     skills: [
-      "Scikit-learn",
-      "XGBoost",
-      "LightGBM",
-      "CatBoost",
+      "Generative AI",
+      "LLMs",
+      "LangChain",
+      "Google Gemini",
+      "Google GenAI SDK",
+      "Prompt Engineering",
+      "Conversational AI",
     ],
   },
 
   {
-    title: "Deep Learning",
-    icon: Cpu,
+    title: "RAG & Vector DB",
+    icon: Database,
     color: {
       text: "text-violet-400",
       bg: "bg-violet-500/10",
@@ -52,15 +54,20 @@ export const skills = [
       glow: "hover:shadow-violet-500/20",
     },
     skills: [
-      "TensorFlow",
-      "Keras",
-      "PyTorch",
+      "RAG",
+      "ChromaDB",
+      "FAISS",
+      "Vector Embeddings",
+      "Semantic Search",
+      "Similarity Search",
+      "Document Processing",
+      "Text Splitting",
     ],
   },
 
   {
-    title: "Data Analytics",
-    icon: Database,
+    title: "Machine Learning & NLP",
+    icon: Cpu,
     color: {
       text: "text-emerald-400",
       bg: "bg-emerald-500/10",
@@ -68,16 +75,19 @@ export const skills = [
       glow: "hover:shadow-emerald-500/20",
     },
     skills: [
-      "Pandas",
-      "NumPy",
-      "Matplotlib",
-      "Seaborn",
+      "Scikit-learn",
+      "NLP",
+      "Classification",
+      "Regression",
+      "Feature Engineering",
+      "Model Evaluation",
+      "SMOTE",
     ],
   },
 
   {
-    title: "Deployment",
-    icon: Rocket,
+    title: "Deep Learning & Data",
+    icon: Cpu,
     color: {
       text: "text-orange-400",
       bg: "bg-orange-500/10",
@@ -85,16 +95,23 @@ export const skills = [
       glow: "hover:shadow-orange-500/20",
     },
     skills: [
-      "FastAPI",
-      "Docker",
-      "Streamlit",
-      "AWS",
+      "TensorFlow",
+      "Keras",
+      "ANN",
+      "CNN",
+      "Pandas",
+      "NumPy",
+      "EDA",
+      "Statistical Analysis",
+      "Data Cleaning",
+      "Matplotlib",
+      "Seaborn",
     ],
   },
 
   {
-    title: "Tools",
-    icon: Wrench,
+    title: "Backend & Deployment",
+    icon: Rocket,
     color: {
       text: "text-pink-400",
       bg: "bg-pink-500/10",
@@ -102,10 +119,11 @@ export const skills = [
       glow: "hover:shadow-pink-500/20",
     },
     skills: [
+      "FastAPI",
+      "Streamlit",
+      "Docker",
+      "AWS EC2",
       "GitHub",
-      "VS Code",
-      "Jupyter Notebook",
-      "Goggle Colab",
     ],
   },
 ];

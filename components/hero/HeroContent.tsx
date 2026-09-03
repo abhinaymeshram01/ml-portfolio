@@ -60,7 +60,7 @@ export default function HeroContent() {
           View Projects
         </Button>
 
-        <Link href="/Abhinay_ML_resume.pdf" target="_blank" download aria-label="Download my resume">
+        <Link href="/Abhinay_meshram_resume.pdf" target="_blank" download aria-label="Download my resume">
         <Button
           variant="outline"
           size="lg"

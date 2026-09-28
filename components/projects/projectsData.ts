@@ -32,9 +32,43 @@ export const projects = [
       "Docker",
     ],
   },
+  {
+  id: 2,
+
+  title: "AI Research Assistant",
+
+  description:
+    "Built an agentic AI research assistant using LangGraph and Google Gemini that analyzes user queries and uses web search tools to gather relevant information before generating a final response.",
+
+  image: "/Projects/ai-research-assistant.png",
+
+  tech: [
+    "Python",
+    "LangGraph",
+    "Google Gemini",
+    "Tool Calling",
+    "Web Search",
+    "Agentic AI",
+    "Streamlit",
+    "FastAPI",
+  ],
+
+  github:
+    "https://github.com/abhinaymeshram01/ai-research-assistant",
+
+  highlights: [
+    "LangGraph Agent",
+    "Google Gemini",
+    "Tool Calling",
+    "Web Search",
+    "Agentic Workflow",
+    "State-Based Architecture",
+    "Research Automation",
+  ],
+},
 
   {
-    id: 2,
+    id: 3,
 
     title: "AI Persona Assistant",
 
@@ -66,7 +100,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
 
     title: "Credit Card Fraud Detection",
 

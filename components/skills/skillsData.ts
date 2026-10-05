@@ -35,7 +35,9 @@ export const skills = [
     },
     skills: [
       "Generative AI",
+      "Agentic AI",
       "LLMs",
+      "LangGraph",
       "LangChain",
       "Google Gemini",
       "Google GenAI SDK",
@@ -45,7 +47,7 @@ export const skills = [
   },
 
   {
-    title: "RAG & Vector DB",
+    title: "RAG & Vector Databases",
     icon: Database,
     color: {
       text: "text-violet-400",
@@ -66,6 +68,25 @@ export const skills = [
   },
 
   {
+    title: "Agentic AI & AI Tools",
+    icon: Brain,
+    color: {
+      text: "text-indigo-400",
+      bg: "bg-indigo-500/10",
+      border: "border-indigo-500/20",
+      glow: "hover:shadow-indigo-500/20",
+    },
+    skills: [
+      "Agentic Workflows",
+      "Research Planning",
+      "Tavily",
+      "Web Search Integration",
+      "Source Processing",
+      "Information Synthesis",
+    ],
+  },
+
+  {
     title: "Machine Learning & NLP",
     icon: Cpu,
     color: {
@@ -77,6 +98,7 @@ export const skills = [
     skills: [
       "Scikit-learn",
       "NLP",
+      "Text Preprocessing",
       "Classification",
       "Regression",
       "Feature Engineering",
@@ -95,13 +117,13 @@ export const skills = [
       glow: "hover:shadow-orange-500/20",
     },
     skills: [
-      "TensorFlow",
-      "Keras",
       "ANN",
       "CNN",
+      "TensorFlow",
+      "Keras",
       "Pandas",
       "NumPy",
-      "EDA",
+      "Exploratory Data Analysis",
       "Statistical Analysis",
       "Data Cleaning",
       "Matplotlib",

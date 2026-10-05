@@ -69,7 +69,7 @@ export default function HeroContent() {
 
         {/* Download Resume */}
         <Link
-          href="/Abhinay_meshram_resume.pdf"
+          href="/Abhinay_Meshram_Resume.pdf"
           target="_blank"
           download
           aria-label="Download my resume"

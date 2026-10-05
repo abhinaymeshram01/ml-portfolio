@@ -28,7 +28,7 @@ const socialLinks = [
   },
   {
     icon: FaFileAlt,
-    href: "/Abhinay_ML_resume.pdf",
+    href: "/Abhinay_Meshram_Resume.pdf",
     label: "Resume",
   },
 ];

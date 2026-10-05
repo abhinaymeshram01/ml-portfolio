@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import Link from "next/dist/client/link";
+import Link from "next/link";
 
 export default function HeroContent() {
   return (
@@ -14,10 +14,12 @@ export default function HeroContent() {
         ease: "easeOut",
       }}
     >
+      {/* Greeting */}
       <p className="mb-4 font-semibold text-blue-400">
         👋 Hello, I'm
       </p>
 
+      {/* Name */}
       <h1 className="mt-4 text-6xl font-extrabold leading-tight tracking-tight text-white lg:text-7xl">
         Abhinay
         <br />
@@ -27,47 +29,58 @@ export default function HeroContent() {
         </span>
       </h1>
 
+      {/* Role */}
       <h2 className="mt-6 text-3xl font-semibold text-slate-200">
         Machine Learning Engineer
       </h2>
 
+      {/* Description */}
       <p className="mt-6 max-w-xl text-lg leading-8 text-slate-400">
-        I build intelligent AI-powered applications using Machine Learning,
-        Deep Learning, FastAPI, Docker, and modern cloud technologies.
-        Passionate about solving real-world problems with AI and Data Science.
+        I build intelligent AI applications using Machine Learning,
+        Generative AI, RAG, and Agentic AI. I work with LangGraph,
+        LangChain, Google Gemini, FastAPI, and Docker to turn ideas
+        into practical AI systems.
       </p>
 
+      {/* Buttons */}
       <div className="mt-10 flex flex-wrap gap-5">
+        {/* View Projects */}
         <Button
-        size="lg"
-        onClick={() => {
-          const section = document.querySelector("#projects");
+          size="lg"
+          onClick={() => {
+            const section = document.querySelector("#projects");
 
-          if (section) {
-            const y =
-              section.getBoundingClientRect().top +
-              window.pageYOffset -
-              90;
+            if (section) {
+              const y =
+                section.getBoundingClientRect().top +
+                window.pageYOffset -
+                90;
 
-            window.scrollTo({
-              top: y,
-              behavior: "smooth",
-            });
-          }
-        }}
+              window.scrollTo({
+                top: y,
+                behavior: "smooth",
+              });
+            }
+          }}
           className="rounded-xl bg-blue-600 px-8 py-6 text-base font-semibold shadow-lg shadow-blue-500/30 transition hover:bg-blue-500"
         >
           View Projects
         </Button>
 
-        <Link href="/Abhinay_meshram_resume.pdf" target="_blank" download aria-label="Download my resume">
-        <Button
-          variant="outline"
-          size="lg"
-          className="rounded-xl border-blue-500 bg-transparent px-8 py-6 text-base text-white hover:bg-blue-500/10"
+        {/* Download Resume */}
+        <Link
+          href="/Abhinay_meshram_resume.pdf"
+          target="_blank"
+          download
+          aria-label="Download my resume"
         >
-          Download Resume
-        </Button>
+          <Button
+            variant="outline"
+            size="lg"
+            className="rounded-xl border-blue-500 bg-transparent px-8 py-6 text-base text-white hover:bg-blue-500/10"
+          >
+            Download Resume
+          </Button>
         </Link>
       </div>
     </motion.div>

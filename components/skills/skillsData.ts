@@ -83,6 +83,7 @@ export const skills = [
       "Web Search Integration",
       "Source Processing",
       "Information Synthesis",
+      "MCP",
     ],
   },
 

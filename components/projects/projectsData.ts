@@ -2,6 +2,40 @@ export const projects = [
   {
     id: 1,
 
+    title: "NEXUS — AI Research Agent",
+
+    description:
+      "Built a multi-agent AI research system that automates research by combining Tavily MCP web search, content extraction, and AI-powered report generation. Integrated Google Gemini, LangChain, and LangSmith to orchestrate research workflows, generate structured reports, evaluate output quality, and trace agent execution.",
+
+    image: "/Projects/nexus-ai-research-agent.png",
+
+    tech: [
+      "Python",
+      "LangChain",
+      "Google Gemini",
+      "Tavily MCP",
+      "LangSmith",
+      "Multi-Agent Systems",
+      "Streamlit",
+    ],
+
+    github:
+      "https://github.com/abhinaymeshram01/ai-research-agent",
+
+    highlights: [
+      "Multi-Agent Workflow",
+      "Tavily MCP Web Search",
+      "AI Report Generation",
+      "Content Extraction",
+      "Critic-Based Review",
+      "LangSmith Tracing",
+      "Streamlit UI",
+    ],
+  },
+
+  {
+    id: 2,
+
     title: "RAG Document Assistant",
 
     description:
@@ -32,40 +66,6 @@ export const projects = [
       "Docker",
     ],
   },
-  {
-  id: 2,
-
-  title: "AI Research Assistant",
-
-  description:
-    "Built an agentic AI research assistant using LangGraph and Google Gemini that analyzes user queries and uses web search tools to gather relevant information before generating a final response.",
-
-  image: "/Projects/ai-research-assistant.png",
-
-  tech: [
-    "Python",
-    "LangGraph",
-    "Google Gemini",
-    "Tool Calling",
-    "Web Search",
-    "Agentic AI",
-    "Streamlit",
-    "FastAPI",
-  ],
-
-  github:
-    "https://github.com/abhinaymeshram01/ai-research-assistant",
-
-  highlights: [
-    "LangGraph Agent",
-    "Google Gemini",
-    "Tool Calling",
-    "Web Search",
-    "Agentic Workflow",
-    "State-Based Architecture",
-    "Research Automation",
-  ],
-},
 
   {
     id: 3,
